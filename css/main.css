@@ -1,0 +1,117 @@
+:root {
+    --titulos: 'Lobster', cursive;
+    --textos: 'Yanone Kaffeesatz', sans-serif;
+    --citas: 'Courgette', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: var(--titulos);
+    font-size: 5rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.titulo {
+    background-color: #dbdbdb;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.titulo p {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#img-div {
+    padding: 1rem 1rem .5rem 1rem;
+    border: 1px solid #c9c9c9;
+    box-shadow: 5px 5px 11px -3px rgb(0 0 0 / 57%);
+}
+
+#img-div p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(34, 34, 34);
+}
+
+ul {
+    margin: 0 10rem;
+}
+
+ul li {
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+}
+
+@media (max-width: 820px) {
+    ul {
+        margin: 0 auto;
+    }
+}
+
+blockquote {
+    padding: 2.2rem;
+    border: 1px solid #c9c9c9;
+    box-shadow: 5px 5px 11px -3px rgb(0 0 0 / 57%);
+    font-family: var(--citas);
+    font-size: 2.2rem;
+    text-align: end;
+    width: 78rem;
+    margin: 4rem auto;
+}
+
+@media (max-width: 820px) {
+    blockquote {
+        width: 95%;
+    }
+}
+
+#footer {
+    background-color: #dbdbdb;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#footer p {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+
+@media (max-width: 580px) {
+    #footer p {
+        margin: 1rem 1.2rem;
+    }
+}
